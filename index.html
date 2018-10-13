@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Contact</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <style>
+            body {
+                background-color: lightgray;
+                font-family:'Poppins', sans-serif;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+            }
+            @keyframes colortitle {
+                0% {
+                    color: blue
+                }
+                50% {
+                    color: black;
+                }
+                100% {
+                    color: blue;
+                }
+            }
+            @keyframes bigger {
+                0% {
+                    padding:5px 20px 5px 20px;
+                }
+                10% {
+                    padding:15px 30px 15px 30px;
+                }
+                100% {
+                    padding:15px 30px 15px 30px;
+                }
+            }
+            nav {
+                display: flex;
+                width:65vw;
+                justify-content:space-around;
+                align-items:center;
+            }
+            #mainbody {
+                background-color:#afe4ff;
+                text-align:center;
+                padding:20px;
+                margin-top:20px;
+                width:65vw;
+            }
+            a {
+                text-decoration:none;
+                color:white;
+                padding:5px 20px 5px 20px;
+                background-color:blue;
+            }
+            a:hover {
+                background-color: #afe4ff;
+                color: black;
+                animation-name: bigger;
+                animation-duration: 10s;
+            }
+            h1 {
+                text-decoration:underline;
+                animation-name: colortitle;
+                animation-duration: 5s;
+                animation-iteration-count:infinite;
+            }
+        </style>
+    </head>
+
+    <body>
+            <h1 style="text-align:center;">Title</h1>
+        <nav>
+                <a href='about.html'>About</a><a href='gallery.html'>Gallery</a><a href='contact.html'>Contact</a>
+        </nav>
+        <br>
+        <div id="mainbody">
+                <h2>Contact Page</h2>
+
+        </div>
+    </body>
+
+</html>
+
+
